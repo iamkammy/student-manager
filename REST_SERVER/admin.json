@@ -1,0 +1,11 @@
+{
+    "Admin":[
+        {
+            "name" : "admin",
+            "Age" : "24",
+            "Email": "admin@gmail.com",
+            "password":"admin"
+        }
+    ]
+    
+}

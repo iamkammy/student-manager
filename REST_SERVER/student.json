@@ -1,0 +1,36 @@
+{
+  "students": [
+    {
+      "id": 1561308230721,
+      "email": "naseembijnor@gmail.com",
+      "password": "12",
+      "fname": "WebTech",
+      "gender": "male",
+      "phone": "9654775378"
+    },
+    {
+      "id": 1561308264942,
+      "email": "kjakajka",
+      "password": "45445",
+      "fname": "kamran",
+      "gender": "male",
+      "phone": "78878778"
+    },
+    {
+      "id": 1561308765042,
+      "email": "kammyr@gmail.com",
+      "password": "123",
+      "fname": "kammy khan",
+      "gender": "male",
+      "phone": "3232323"
+    },
+    {
+      "id": 1561368133516,
+      "email": "",
+      "password": "12",
+      "fname": "",
+      "gender": "male",
+      "phone": ""
+    }
+  ]
+}

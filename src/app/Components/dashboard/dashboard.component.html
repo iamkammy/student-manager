@@ -1,0 +1,11 @@
+<div class="topnav" id="myTopnav">
+  <div class="left">
+      <a routerLink='home' class="active">Home</a>
+      <a routerLink='add-student'>Add Student</a>
+      <a routerLink='show-student'>Show Students</a>
+  </div>
+  <div class="right">
+      <button (click)="logout()">Logout</button>    
+  </div>
+</div>
+<router-outlet></router-outlet>
