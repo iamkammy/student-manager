@@ -31,4 +31,10 @@ export class AddStudentComponent implements OnInit {
     console.log(this.studentForm.value);
     this.studentForm.reset();
   }
+
+  submitt(){
+    this._student.mpost(this.studentForm.value).subscribe((res)=>{
+      console.log(res);
+    })
+  }
 }

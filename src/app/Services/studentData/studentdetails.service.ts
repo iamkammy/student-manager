@@ -10,6 +10,7 @@ export class StudentdetailsService {
   constructor(private http:HttpClient,private router: Router ) { }
 
  admin_url:any = "http://localhost:3000/Admin";
+ mockurl:string = "http://localhost:500/emp"
 student_url:string = "http://localhost:5000/students";
 
   getData(){
@@ -21,6 +22,10 @@ student_url:string = "http://localhost:5000/students";
    return this.http.post(this.student_url, data
     
     );
+  }
+
+  mpost(val){
+    return  this.http.post(this.mockurl,val);
   }
   getStudents(){
      return this.http.get(this.student_url)
